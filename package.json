@@ -1,0 +1,16 @@
+{
+  "name": "obsidian-mcp",
+  "version": "2.0.0",
+  "description": "MCP server for Obsidian vault via LocalREST API — one-command launcher",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/launch.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "@ngrok/ngrok": "^1.4.0",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "zod": "^3.22.4"
+  }
+}

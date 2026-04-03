@@ -1,0 +1,3 @@
+node_modules/
+# config.json contains API keys — don't commit it
+# keep config.json.example in git instead

@@ -1,0 +1,17 @@
+{
+  "_comment": "Edit the values below, then run: npm start",
+
+  "obsidian": {
+    "apiKey": "OBSIDIAN_KEY",
+    "host":   "https://127.0.0.1:27124"
+  },
+
+  "ngrok": {
+    "authtoken": "NGROK_KEY"
+  },
+
+  "ports": {
+    "proxy":  3010,
+    "server": 3020
+  }
+}
