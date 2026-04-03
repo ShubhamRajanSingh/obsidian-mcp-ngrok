@@ -43,8 +43,8 @@ Your Obsidian Vault 📓
 ### 2. Clone and install
 
 ```bash
-git clone https://github.com/your-username/obsidian-mcp.git
-cd obsidian-mcp
+git clone https://github.com/your-username/obsidian-mcp-ngrok.git
+cd obsidian-mcp-ngrok
 npm install
 ```
 
@@ -55,11 +55,11 @@ On Termux: if `@ngrok/ngrok` install fails, see the [Termux section](#termux-and
 ```json
 {
   "obsidian": {
-    "apiKey": "paste_your_obsidian_api_key_here",
+    "apiKey": "OBSIDIAN_KEY",
     "host":   "https://127.0.0.1:27124"
   },
   "ngrok": {
-    "authtoken": "paste_your_ngrok_authtoken_here"
+    "authtoken": "NGROK_KEY"
   },
   "ports": {
     "proxy":  3010,
